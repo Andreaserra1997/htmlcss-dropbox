@@ -116,3 +116,139 @@ nav {
     font-size: 2rem;
     padding-top: 3rem;
 }
+
+/* start main */
+
+.small-container {
+    max-width: 700px;
+    margin-inline: auto;
+}
+
+.first-title {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-size: 1.7rem;
+}
+
+.fa-circle-dot {
+    color: #0061FF;
+}
+
+.fa-circle {
+    padding-left: 1rem;
+}
+
+/* start card */
+
+.container-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.cards {
+    width: calc(100% / 3);
+    border: 1px solid #DBDBDD;
+}
+
+.title-cards {
+    text-align: center;
+    padding: .7rem;
+    border-bottom: 1px solid #DBDBDD;
+}
+
+.text-cards {
+    padding: 2rem 1.5rem;
+    font-size: .7rem;
+}
+
+.subtitle-cards {
+    padding-bottom: 1.5rem;
+}
+
+.price {
+    padding-top: .8rem;
+    padding-bottom: 3rem;
+}
+
+.text-cards li {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.pdng-cards {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.line {
+    height: 1px;
+    width: 40px;
+    border-bottom: 1px solid gray;
+    padding-top: 2rem;
+}
+
+.text-cards h4 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.fa-check {
+    color: #0061FF;
+}
+
+.company {
+    text-align: center;
+}
+
+.btn-company {
+    background-color: #0061FF;
+    color: white;
+    padding: .4rem 3.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.horizontal-card {
+    margin-top: 2rem;
+    border: 1px solid #DBDBDD;
+}
+
+.content-hr {
+    display: flex;
+}
+
+.title-hr-card {
+    text-align: center;
+    padding: .7rem;
+    border-bottom: 1px solid #DBDBDD;
+}
+
+.text-hr-card{
+    flex: 0 1 70%;
+    padding-inline: 1.5rem;
+}
+
+.text-hr-card h4 {
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.subtitle-hr-card {
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+
+.text-hr-card p {
+    padding-top: 3rem;
+    font-size: .7rem;
+}
+
+.btn-hr-card {
+    flex: 0 1 30%;
+    padding-top: 3rem;
+    padding-right: .7rem;
+}
+
+/* end horizontal card */
