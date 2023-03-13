@@ -12,6 +12,10 @@ html {
 
 .btn {
     background-color: #0061FF;
+    color: white;
+    padding: .4rem .9rem;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* start nav  */
@@ -21,9 +25,11 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
     display: flex;
     height: 5rem;
     justify-content: space-between;
+    background-color: white;
 }
 
 .left-link, .right-link {
@@ -56,4 +62,57 @@ nav {
     color: white;
     background-color: #0061FF;
     padding-inline: .7rem;
+}
+
+/* content header  */
+
+.background-header {
+    background-color: #B4D0E7;
+    margin-top: 5rem;
+}
+
+.big-container {
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.section-header h1 {
+    padding-top: 3rem;
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.container-section {
+    display: flex;
+}
+
+.section-header .text {
+    flex: 0 1 35%;
+    font-size: .9rem;
+}
+
+.section-header .image {
+    flex: 0 1 65%;
+}
+
+.section-header img {
+    width: 100%;
+}
+
+.container-section .text p {
+    padding-bottom: 1.8rem;
+}
+
+.free {
+    padding-top: 1.8rem;
+}
+
+.free a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-arrow-down {
+    font-size: 2rem;
+    padding-top: 3rem;
 }
