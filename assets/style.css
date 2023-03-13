@@ -242,6 +242,7 @@ nav {
 
 .text-hr-card p {
     padding-top: 3rem;
+    padding-bottom: 1.5rem;
     font-size: .7rem;
 }
 
@@ -252,3 +253,36 @@ nav {
 }
 
 /* end horizontal card */
+
+.first-section-main {
+    display: flex;
+    max-width: 700px;
+    margin-inline: auto;
+    padding-top: 5rem;
+}
+
+.image-1-section {
+    flex: 0 1 65%;
+}
+
+.image-1-section img {
+    width: 100%;
+}
+
+.text-1-section {
+    flex: 0 1 35%;
+    padding-left: 2.5rem;
+    align-self: center;
+}
+
+.text-1-section p {
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+    font-size: .7rem;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
