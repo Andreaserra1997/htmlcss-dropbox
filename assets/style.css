@@ -97,6 +97,7 @@ nav {
 
 .section-header img {
     width: 100%;
+    margin-bottom: -100px;
 }
 
 .container-section .text p {
@@ -259,6 +260,7 @@ nav {
     max-width: 700px;
     margin-inline: auto;
     padding-top: 5rem;
+    padding-bottom: 6rem;
 }
 
 .image-1-section {
@@ -285,4 +287,137 @@ nav {
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+.second-section {
+    padding-bottom: 3rem;
+}
+
+.second-section h2 {
+    padding-bottom: 3rem;
+}
+
+.container-card {
+    display: flex;
+    gap: 2rem;
+}
+
+.card-section {
+    width: calc(100% / 3);
+}
+
+.img-2-section img {
+    width: 100%;
+}
+
+.text-2-section h3 {
+    line-height: 1.5;
+    padding-bottom: 1.5rem;
+}
+
+.text-2-section p {
+    font-size: .7rem;
+    padding-bottom: 2rem;
+}
+
+.only-title {
+    padding-top: 3rem;
+    width: 60%;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+}
+
+.container-square {
+    display: flex;
+    padding-top: 3rem;
+    margin: auto;
+    max-width: 1270px;
+}
+
+.square1 {
+    height: 460px;
+    width: calc(100% /3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square2 {
+    height: 460px;
+    width: calc(100% /3);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+}
+
+.square2 img {
+    width: 60%;
+    padding: 2rem;
+}
+
+.square2 p {
+    padding: 2rem;
+    margin-top: -4rem;
+    font-size: .8rem;
+}
+
+.author {
+    padding-left: 2rem;
+    margin-top: -4rem;
+}
+
+.square3 {
+    height: 460px;
+    width: calc(100% /3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.minisquare {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+
+.m1 {
+    background-image: url(../img/designit.svg);
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.m2 {
+    background-image: url(../img/arizona_state_university.svg);
+    background-color: #61082B;
+}
+
+.m3 {
+    background-image: url(../img/university_of_florida.svg);
+    background-color: #0093CE;
+}
+
+.m4 {
+    background-image: url(../img/topps.svg);
+    background-color: #FF1C1C;
+}
+
+.m5 {
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-color: #D5001F;
+}
+
+.m6 {
+    background-image: url(../img/hearst_corp.svg);
+    background-color: #B4D0E7;
+}
+
+.m7 {
+    background-image: url(../img/lonely_planet.svg);
+    background-color: #0D2481;
+}
+
+.m8 {
+    background-image: url(../img/clear_channel.svg);
+    background-color: #FFD830;
 }
