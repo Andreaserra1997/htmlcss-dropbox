@@ -337,35 +337,32 @@ nav {
 }
 
 .square1 {
-    height: 420px;
-    width: 420px;
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 .square2 {
-    height: 420px;
-    width: 420px;
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
     background-color: #F5F5F5;
 }
 
 .square3 {
-    height: 420px;
-    width: 420px;
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 .minisquare {
     width: calc(100% / 2);
-    height: calc(100% / 2);
     display: flex;
 }
 
 .minisquare img {
     width: 45%;
+    filter: invert(1);
 }
 
 .m1 {
@@ -395,18 +392,29 @@ nav {
 
 .square2 img {
     width: 60%;
-    padding: 2rem;
+    padding-top: 3rem;
+    padding-inline: 2rem;
 }
 
-.square2 p {
-    padding: 2rem;
-    margin-top: -4rem;
+.hr-line {
+    height: 1px;
+    width: 20%;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: #D5D5D7;
+}
+
+.text-sq2 {
+    padding-inline: 2rem;
+    padding-bottom: 3rem;
     font-size: .8rem;
 }
 
 .author {
-    padding-left: 2rem;
-    margin-top: -4rem;
+    padding-inline: 2rem;
+    padding-bottom: 7rem;
+    font-size: .8rem;
 }
 
 .m5 {
