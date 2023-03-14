@@ -331,19 +331,19 @@ nav {
     display: flex;
     padding-top: 3rem;
     margin: auto;
-    max-width: 1270px;
+    max-width: 1260px;
 }
 
 .square1 {
-    height: 460px;
-    width: calc(100% /3);
+    height: 420px;
+    width: 420px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .square2 {
-    height: 460px;
-    width: calc(100% /3);
+    height: 420px;
+    width: 420px;
     display: flex;
     flex-wrap: wrap;
     background-color: #F5F5F5;
@@ -366,15 +366,15 @@ nav {
 }
 
 .square3 {
-    height: 460px;
-    width: calc(100% /3);
+    height: 420px;
+    width: 420px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .minisquare {
-    width: 50%;
-    height: 50%;
+    width: calc(100% / 2);
+    height: calc(100% / 2);
     display: flex;
     background-position: center;
     background-size: 45%;
