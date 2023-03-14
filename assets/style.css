@@ -69,6 +69,8 @@ nav {
 .background-header {
     background-color: #B4D0E7;
     margin-top: 5rem;
+    max-width: 1260px;
+    margin-inline: auto;
 }
 
 .big-container {
@@ -442,3 +444,81 @@ nav {
 }
 
 /* end square */
+
+.azure {
+    max-width: 1260px;
+    margin: auto;
+    background-color: #B4D0E7;
+    display: flex;
+}
+
+.azure-flex {
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 15%;
+}
+
+.azure-flex h2 {
+    color: #61082B;
+    flex: 0 1 45%;
+}
+
+.azure-flex .btn {
+    flex: 0 1 40%;
+    align-self: center;
+    background-color: white;
+    color: black;
+}
+
+.end-main {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.question {
+    padding-bottom: 3rem;
+}
+
+.question-advanced {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.p-question {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* start footer */
+
+footer {
+    max-width: 1260px;
+    margin-inline: auto;
+    background-color: black;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.nav-footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.nav-footer ul {
+    list-style: none;
+    color: white;
+}
+
+.nav-footer h3 {
+    padding-bottom: 1rem;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: white;
+}
