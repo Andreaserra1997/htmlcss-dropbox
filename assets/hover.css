@@ -1,0 +1,39 @@
+.left-link a:hover  {
+    background-color: #F2EEE8;
+}
+
+.right-link a:hover {
+    background-color: #F2EEE8;
+}
+
+.m1:hover {
+    border: 10px solid #D1E9CD;
+}
+
+.m2:hover {
+    border: 10px solid #c75985;
+}
+
+.m3:hover {
+    border: 10px solid #276e8a;
+}
+
+.m4:hover {
+    border: 10px solid #ca4f4fc4;
+}
+
+.m5:hover {
+    border: 10px solid #922e3d;
+}
+
+.m6:hover {
+    border: 10px solid #7b9ebd;
+}
+
+.m7:hover {
+    border: 10px solid #4965d8;
+}
+
+.m8:hover {
+    border: 10px solid #b29202;
+}
