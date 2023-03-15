@@ -488,6 +488,8 @@ nav {
 .p-question {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* start footer */
@@ -502,6 +504,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 3rem;
+    padding-bottom: 2rem;
 }
 
 .nav-footer {
@@ -521,4 +524,18 @@ footer {
 .nav-footer a {
     text-decoration: none;
     color: white;
+}
+
+hr {
+    margin-top: 3rem;
+    width: 60%;
+}
+
+.ita {
+    padding-top: 2rem;
+    color: #989894;
+}
+
+.ita span {
+    padding-left: .3rem;
 }
