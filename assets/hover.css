@@ -6,6 +6,46 @@
     background-color: #F2EEE8;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: calc(100% + .5rem);
+    background-color: #F2EEE8;
+    padding: .5rem;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.dropdown > .link:focus + .dropdown-menu {
+    opacity: 1;
+}
+
+.dropdown-heading {
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+.dropdown-links {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    padding-top: .6rem;
+}
+
+.dropdown-links a {
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    font-size: .7rem;
+}
+
+.dropdown-links a:hover {
+    background-color: #E7E0D7;
+}
+
 .m1:hover {
     border: 10px solid #D1E9CD;
 }
