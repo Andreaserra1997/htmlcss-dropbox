@@ -16,6 +16,7 @@ html {
     padding: .4rem .9rem;
     text-align: center;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 /* start nav  */
